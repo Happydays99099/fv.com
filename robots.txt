@@ -1,0 +1,12 @@
+#宣告下面的規則適用於所有網路蜘蛛，禁止存取images及css目錄中的資訊，所有PDF,xlsx, docx, pptx格式的檔案禁止擷取。
+
+
+user-agent: *
+disallow: /backup
+disallow: /images
+disallow: /css
+disallow: /js
+disallow:/*.pdf$
+disallow:/*.xlsx$
+disallow:/*.docx$
+disallow:/*.pptx$
